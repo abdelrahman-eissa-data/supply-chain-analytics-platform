@@ -41,24 +41,25 @@ Key EDA tasks included:
 
 ## Data Architecture
 
-The analytics workflow follows a structured data pipeline:
+The analytics workflow follows a structured end-to-end data pipeline:
 
-Raw Dataset (Kaggle)
-        │
-        ▼
-Data Cleaning & EDA (Python - Pandas)
-        │
-        ▼
-Data Warehouse Modeling (PostgreSQL - Star Schema)
-        │
-        ▼
-SQL Analytics (Aggregations & Window Functions)
-        │
-        ▼
-KPI Calculation (DAX)
-        │
-        ▼
-Interactive Dashboard (Power BI)
+1. **Raw Dataset (Kaggle)**  
+   Supply chain dataset containing more than 180,000 rows.
+
+2. **Data Cleaning & EDA – Python (Pandas, NumPy)**  
+   Data preprocessing, handling missing values, and exploratory analysis.
+
+3. **Data Warehouse Modeling – PostgreSQL**  
+   Implementation of a **Star Schema** data warehouse with fact and dimension tables.
+
+4. **SQL Analytics**  
+   Advanced SQL queries including **aggregations and window functions** for analytical reporting.
+
+5. **KPI Calculation – DAX**  
+   Business metrics and management KPIs implemented in Power BI.
+
+6. **Interactive Dashboard – Power BI**  
+   Visualization of supply chain insights across management, logistics, and product performance dashboards.
 
 ---
 
