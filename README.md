@@ -177,7 +177,6 @@ Evaluates product-level performance, profitability, and category-level insights.
 ---
 
 ## Project Structure
-## Project Structure
 
 ```text
 supply-chain-analytics-platform
