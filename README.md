@@ -12,7 +12,17 @@ The project includes data cleaning, exploratory data analysis, data warehouse mo
 
 ## Dataset
 
-The dataset used in this project comes from **Kaggle** and contains more than **180,000 rows** of supply chain and sales data.
+The dataset used in this project is the **DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS** dataset available on Kaggle.
+
+The data is stored in **CSV format** and contains more than **180,000 rows** of supply chain and sales records.
+
+Dataset characteristics:
+
+- Source: Kaggle
+- Dataset Name: DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS
+- Format: CSV
+- Size: ~180k records
+- Domain: Supply Chain & Sales Analytics
 
 The dataset includes information about:
 
@@ -22,6 +32,8 @@ The dataset includes information about:
 - Shipping performance
 - Markets and regions
 - Sales and profit metrics
+
+This dataset enables analysis of operational performance, logistics efficiency, and product profitability across different markets.
   
 ---
 
