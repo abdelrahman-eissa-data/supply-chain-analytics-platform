@@ -177,3 +177,35 @@ Evaluates product-level performance, profitability, and category-level insights.
 ---
 
 ## Project Structure
+## Project Structure
+
+```text
+supply-chain-analytics-platform
+│
+├── data
+│   └── dataset-description.md
+│
+├── images
+│   ├── README.md
+│   ├── dashboard-management.png
+│   ├── dashboard-logistics.png
+│   └── dashboard-product.png
+│
+├── notebooks
+│   ├── data-cleaning.ipynb
+│   └── exploratory-data-analysis.ipynb
+│
+├── sql
+│   ├── create-tables.sql
+│   ├── insert-data.sql
+│   └── analytical-queries.sql
+│
+└── README.md
+```
+
+Each folder represents a stage of the end-to-end analytics workflow:
+
+- **data** → dataset description and source information  
+- **notebooks** → Python notebooks for data cleaning and exploratory data analysis  
+- **sql** → PostgreSQL scripts for data warehouse creation and analytical queries  
+- **images** → Power BI dashboard screenshots used in the project documentation  
