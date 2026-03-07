@@ -80,28 +80,26 @@ The following management KPIs were implemented:
 
 ---
 
-## Dashboard
-## Dashboard Preview
+## Power BI Dashboard
+
+An interactive **Power BI dashboard** was developed to monitor key supply chain performance indicators and support data-driven decision-making.
+
+The dashboard is structured into three analytical pages, each focusing on a specific business perspective.
 
 ### Management Overview
+Provides a high-level view of overall business performance, including revenue, profit, and key operational KPIs.
 
-![Dashboard Overview](images/dashboard-overview.png)
+![Management Overview](images/dashboard-overview.png)
 
 ### Logistics Performance
+Analyzes shipping efficiency, delivery delays, and logistics-related performance metrics.
 
-![Logistics Dashboard](images/logistics-analysis.png)
+![Logistics Performance](images/logistics-analysis.png)
 
 ### Product Performance
+Evaluates product-level performance, profitability, and category-level insights.
 
-![Product Dashboard](images/product-performance.png)
-An interactive **Power BI dashboard** was created with three analytical pages:
-
-1. **Management Overview**
-2. **Logistics Performance**
-3. **Product Performance**
-
-Dashboard screenshots can be found in the **images** folder.
-
+![Product Performance](images/product-performance.png)
 ---
 
 ## Tech Stack
