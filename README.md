@@ -22,7 +22,7 @@ The dataset includes information about:
 - Shipping performance
 - Markets and regions
 - Sales and profit metrics
-
+  
 ---
 
 ## Exploratory Data Analysis (EDA)
@@ -36,6 +36,29 @@ Key EDA tasks included:
 - Sales and profit distribution analysis
 - Shipping delay investigation
 - Product and market performance exploration
+
+---
+
+## Data Architecture
+
+The analytics workflow follows a structured data pipeline:
+
+Raw Dataset (Kaggle)
+        │
+        ▼
+Data Cleaning & EDA (Python - Pandas)
+        │
+        ▼
+Data Warehouse Modeling (PostgreSQL - Star Schema)
+        │
+        ▼
+SQL Analytics (Aggregations & Window Functions)
+        │
+        ▼
+KPI Calculation (DAX)
+        │
+        ▼
+Interactive Dashboard (Power BI)
 
 ---
 
