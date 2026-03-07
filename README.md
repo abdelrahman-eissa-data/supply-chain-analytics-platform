@@ -43,20 +43,20 @@ Key EDA tasks included:
 
 The analytics workflow follows a structured end-to-end data pipeline:
 
-1. **Raw Dataset (Kaggle)**  
-   Supply chain dataset containing more than 180,000 rows.
+1. **Raw Dataset (CSV Files – Kaggle)**  
+   Supply chain dataset containing more than **180,000 rows** stored as CSV files.
 
 2. **Data Cleaning & EDA – Python (Pandas, NumPy)**  
-   Data preprocessing, handling missing values, and exploratory analysis.
+   Data preprocessing, handling missing values, and exploratory analysis using Python.
 
 3. **Data Warehouse Modeling – PostgreSQL**  
-   Implementation of a **Star Schema** data warehouse with fact and dimension tables.
+   Implementation of a **Star Schema data warehouse** including fact and dimension tables.
 
 4. **SQL Analytics**  
    Advanced SQL queries including **aggregations and window functions** for analytical reporting.
 
-5. **KPI Calculation – DAX**  
-   Business metrics and management KPIs implemented in Power BI.
+5. **KPI Calculation – DAX (Power BI)**  
+   Business metrics and management KPIs calculated using DAX.
 
 6. **Interactive Dashboard – Power BI**  
    Visualization of supply chain insights across management, logistics, and product performance dashboards.
