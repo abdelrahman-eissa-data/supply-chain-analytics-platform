@@ -112,7 +112,6 @@ Advanced SQL queries were developed for analytical reporting, including:
 ### Example SQL Query
 
 The following example calculates total revenue and profit by market:
-
 ```sql
 SELECT 
     market,
