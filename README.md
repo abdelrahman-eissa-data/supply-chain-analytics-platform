@@ -120,7 +120,8 @@ SELECT
 FROM fact_orders
 GROUP BY market
 ORDER BY total_revenue DESC;
-
+```
+---
 ### Key Business KPIs
 
 The following management KPIs were implemented:
