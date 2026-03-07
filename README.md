@@ -158,6 +158,12 @@ Evaluates product-level performance, profitability, and category-level insights.
 ![Product Performance](images/product-performance.png)
 ---
 
+## Key Insights
+
+
+
+---
+
 ## Tech Stack
 
 - Python (Pandas, NumPy)
