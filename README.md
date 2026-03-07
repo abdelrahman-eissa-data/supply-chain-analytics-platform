@@ -125,7 +125,7 @@ ORDER BY total_revenue DESC;
 
 ---
 
-## Key Business KPIs
+### Key Business KPIs
 
 The following management KPIs were implemented:
 
