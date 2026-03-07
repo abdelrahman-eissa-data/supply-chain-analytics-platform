@@ -81,7 +81,19 @@ The following management KPIs were implemented:
 ---
 
 ## Dashboard
+## Dashboard Preview
 
+### Management Overview
+
+![Dashboard Overview](images/dashboard-overview.png)
+
+### Logistics Performance
+
+![Logistics Dashboard](images/logistics-analysis.png)
+
+### Product Performance
+
+![Product Dashboard](images/product-performance.png)
 An interactive **Power BI dashboard** was created with three analytical pages:
 
 1. **Management Overview**
