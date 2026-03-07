@@ -10,6 +10,14 @@ The project includes data cleaning, exploratory data analysis, data warehouse mo
 
 ---
 
+## Business Problem
+
+Supply chain operations generate large volumes of transactional data, but organizations often struggle to transform this raw data into actionable insights.
+
+This project focuses on analyzing supply chain performance to answer key business questions related to revenue generation, shipping efficiency, product profitability, and market performance.
+
+---
+
 ## Dataset
 
 The dataset used in this project is the **DataCo SMART SUPPLY CHAIN FOR BIG DATA ANALYSIS** dataset available on Kaggle.
@@ -99,6 +107,21 @@ Advanced SQL queries were developed for analytical reporting, including:
 - Window Functions
 - Profit and revenue calculations
 - Market and product performance analysis
+
+---
+
+### Example SQL Query
+
+The following example calculates total revenue and profit by market:
+
+```sql
+SELECT 
+    market,
+    SUM(sales) AS total_revenue,
+    SUM(profit) AS total_profit
+FROM fact_orders
+GROUP BY market
+ORDER BY total_revenue DESC;
 
 ---
 
