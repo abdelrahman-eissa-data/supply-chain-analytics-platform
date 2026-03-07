@@ -109,7 +109,6 @@ Advanced SQL queries were developed for analytical reporting, including:
 - Market and product performance analysis  
 
 ---
-```markdown id="sqlfix01"
 ### Example SQL Query
 
 The following example calculates total revenue and profit by market:
