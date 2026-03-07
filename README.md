@@ -34,15 +34,15 @@ Dataset characteristics:
 
 The dataset includes information about:
 
-- Orders
-- Customers
-- Products
-- Shipping performance
-- Markets and regions
-- Sales and profit metrics
+- Orders  
+- Customers  
+- Products  
+- Shipping performance  
+- Markets and regions  
+- Sales and profit metrics  
 
 This dataset enables analysis of operational performance, logistics efficiency, and product profitability across different markets.
-  
+
 ---
 
 ## Exploratory Data Analysis (EDA)
@@ -51,11 +51,11 @@ Exploratory Data Analysis was performed using **Python (Pandas, NumPy)** to unde
 
 Key EDA tasks included:
 
-- Data cleaning and handling missing values
-- Identifying outliers
-- Sales and profit distribution analysis
-- Shipping delay investigation
-- Product and market performance exploration
+- Data cleaning and handling missing values  
+- Identifying outliers  
+- Sales and profit distribution analysis  
+- Shipping delay investigation  
+- Product and market performance exploration  
 
 ---
 
@@ -103,12 +103,10 @@ This structure enables efficient analytical queries and KPI calculations.
 
 Advanced SQL queries were developed for analytical reporting, including:
 
-- Aggregations
-- Window Functions
-- Profit and revenue calculations
-- Market and product performance analysis
-
----
+- Aggregations  
+- Window Functions  
+- Profit and revenue calculations  
+- Market and product performance analysis  
 
 ### Example SQL Query
 
@@ -122,8 +120,6 @@ SELECT
 FROM fact_orders
 GROUP BY market
 ORDER BY total_revenue DESC;
-
----
 
 ### Key Business KPIs
 
