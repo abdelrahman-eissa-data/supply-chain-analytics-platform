@@ -108,6 +108,8 @@ Advanced SQL queries were developed for analytical reporting, including:
 - Profit and revenue calculations  
 - Market and product performance analysis  
 
+---
+```markdown id="sqlfix01"
 ### Example SQL Query
 
 The following example calculates total revenue and profit by market:
@@ -121,6 +123,7 @@ FROM fact_orders
 GROUP BY market
 ORDER BY total_revenue DESC;
 
+---
 ### Key Business KPIs
 
 The following management KPIs were implemented:
