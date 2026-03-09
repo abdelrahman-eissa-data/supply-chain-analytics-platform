@@ -85,24 +85,28 @@ The analytics workflow follows a structured end-to-end data pipeline:
 
 ## Data Warehouse Design
 
-A **PostgreSQL data warehouse** was designed using a **Star Schema architecture** to support analytical queries.
+A **PostgreSQL data warehouse** was implemented using a **Star Schema architecture** to support efficient analytical queries and business intelligence reporting.
 
-The data pipeline consists of two layers:
+The architecture consists of two main layers:
 
-1. Staging Layer for raw data ingestion  
-2. Data Warehouse designed using a Star Schema in PostgreSQL
+### 1. Staging Layer
+The staging layer stores the raw data imported from the cleaned CSV dataset before transformation.
+
+### 2. Data Warehouse Layer
+The analytical data warehouse is structured using a **Star Schema**, consisting of:
+
+- **Fact Table**
+  - `fact_orders`
+
+- **Dimension Tables**
+  - `dim_product`
+  - `dim_customer`
+  - `dim_date`
+  - `dim_region`
+
+This structure improves query performance and supports KPI calculations for supply chain analytics.
 
 ![Data Warehouse Architecture](images/data-warehouse-architecture.png)
-
-The warehouse includes:
-
-- Fact_Orders (Fact table)
-- Dim_Product
-- Dim_Customer
-- Dim_Date
-- Dim_Market
-
-This structure enables efficient analytical queries and KPI calculations.
 
 ---
 
