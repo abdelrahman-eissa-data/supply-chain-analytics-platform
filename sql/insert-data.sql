@@ -28,25 +28,6 @@
 SELECT *
 FROM public.stage_data;
 
-/* =========================================================
-
-Alte dim_date
-Insert Data to dim_Date (Alle Daten von Order_Date & Shipping_Date werden angezeigt in dim_Date)
-
-INSERT INTO dim_date (date_key, year, month, quarter)
-SELECT DISTINCT
-  d::date AS date_key,
-  EXTRACT(YEAR FROM d)::int,
-  EXTRACT(MONTH FROM d)::int,
-  EXTRACT(QUARTER FROM d)::int
-FROM (
-    SELECT "order date (DateOrders)" AS d FROM stage_data
-    UNION
-    SELECT "shipping date (DateOrders)" AS d FROM stage_data
-) all_dates
-WHERE d IS NOT NULL;
-   ========================================================= */
-
 
 
 /* =========================================================
@@ -336,3 +317,4 @@ GROUP BY
   r.order_region
 
 ORDER BY row_count DESC;
+
