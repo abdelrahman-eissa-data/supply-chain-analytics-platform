@@ -85,7 +85,9 @@ The analytics workflow follows a structured end-to-end data pipeline:
 
 ## Data Warehouse Design
 
-A **PostgreSQL data warehouse** was designed using a **Star Schema architecture**.
+A **PostgreSQL data warehouse** was designed using a **Star Schema architecture** to support analytical queries..
+
+![Star Schema](images/data-warehouse-star-schema.png)
 
 The warehouse includes:
 
