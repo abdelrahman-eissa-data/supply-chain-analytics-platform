@@ -67,14 +67,6 @@ CREATE TABLE dim_date (
 
 
 
-
-
-
-
-
-
-
-
 ---dim_customer
 
 DROP TABLE IF EXISTS dim_customer CASCADE;
@@ -87,19 +79,6 @@ CREATE TABLE dim_customer (
   customer_city text,
   customer_zipcode text
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -120,17 +99,6 @@ CREATE TABLE dim_product (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 --- dim_region
 
 DROP TABLE IF EXISTS dim_region CASCADE;
@@ -145,20 +113,6 @@ CREATE TABLE dim_region (
   latitude numeric(10,6),
   longitude numeric(10,6)
 );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -199,6 +153,7 @@ CREATE TABLE fact_orders (
   order_item_profit_ratio numeric(10,6),
   order_item_product_price numeric(18,2)
 );
+
 
 
 
