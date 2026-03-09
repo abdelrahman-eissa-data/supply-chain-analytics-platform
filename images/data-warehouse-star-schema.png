@@ -1,0 +1,5 @@
+## Data Warehouse Schema
+
+The data warehouse was designed using a Star Schema to support analytical queries.
+
+![Data Warehouse ERD](images/data-warehouse-erd.png)
