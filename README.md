@@ -1,4 +1,8 @@
 # End-to-End Supply Chain Analytics Platform
+![Python](https://img.shields.io/badge/Python-Pandas-blue)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Data%20Warehouse-blue)
+![PowerBI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
+![SQL](https://img.shields.io/badge/SQL-Analytics-green)
 
 ## Project Overview
 
