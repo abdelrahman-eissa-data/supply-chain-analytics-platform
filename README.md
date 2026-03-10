@@ -277,7 +277,7 @@ Each folder represents a stage of the end-to-end data analytics workflow:
 
 **Abdelrahman Eissa**
 
-Data Analyst | Supply Chain Analytics | Business Intelligence
+Data Analyst | Junior Data Engineer | Business Intelligence
 
 - Python (Pandas, NumPy)
 - SQL & PostgreSQL
