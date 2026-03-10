@@ -268,4 +268,20 @@ Each folder represents a stage of the end-to-end data analytics workflow:
 - **data** → dataset description and source information  
 - **notebooks** → Python notebooks for data cleaning and exploratory data analysis (EDA)  
 - **sql** → PostgreSQL scripts for building the data warehouse (star schema) and analytical queries  
-- **images** → screenshots of the Power BI dashboards and the ERD (Entity Relationship Diagram) used for project documentation  
+- **images** → screenshots of the Power BI dashboards and the ERD (Entity Relationship Diagram) used for project documentation
+
+
+---
+
+## Author
+
+**Abdelrahman Eissa**
+
+Data Analyst | Supply Chain Analytics | Business Intelligence
+
+- Python (Pandas, NumPy)
+- SQL & PostgreSQL
+- Power BI
+- Data Warehousing
+
+GitHub: https://github.com/abdelrahman-eissa-data
