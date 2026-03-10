@@ -1,4 +1,4 @@
-# Supply Chain Analytics Platform
+# End-to-End Supply Chain Analytics Platform
 
 ## Project Overview
 
