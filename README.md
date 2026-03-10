@@ -259,9 +259,9 @@ supply-chain-analytics-platform
 └── README.md
 ```
 
-Each folder represents a stage of the end-to-end analytics workflow:
+Each folder represents a stage of the end-to-end data analytics workflow:
 
 - **data** → dataset description and source information  
-- **notebooks** → Python notebooks for data cleaning and exploratory data analysis  
-- **sql** → PostgreSQL scripts for data warehouse creation and analytical queries  
-- **images** → Power BI dashboard screenshots used in the project documentation  
+- **notebooks** → Python notebooks for data cleaning and exploratory data analysis (EDA)  
+- **sql** → PostgreSQL scripts for building the data warehouse (star schema) and analytical queries  
+- **images** → screenshots of the Power BI dashboards and the ERD (Entity Relationship Diagram) used for project documentation  
