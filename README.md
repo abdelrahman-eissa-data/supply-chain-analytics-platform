@@ -196,7 +196,27 @@ Provides insights into product-level sales and profitability, including:
 
 ## Key Insights
 
+Based on the analysis of the supply chain dataset, several important insights were identified:
 
+### Logistics Insights
+- **Second Class shipping** shows the highest average delivery delay (~2 days), indicating potential inefficiencies in this shipping method.
+- The overall **On-Time Delivery Rate is about 52.7%**, while **Late Deliveries reach 47.3%**, suggesting significant room for logistics optimization.
+- Regions such as **West Africa, West Asia, and Western Europe** show the highest late delivery risk.
+
+### Market Performance Insights
+- **Europe and LATAM** generate the highest total revenue among all markets.
+- **Africa** shows the lowest total sales, indicating potential market growth opportunities.
+- Sales trends show seasonal fluctuations across markets, with some regions experiencing strong growth during specific periods.
+
+### Product Performance Insights
+- Products like **Field & Stream Sportsman** and **Perfect Fitness Performance products** generate the highest revenue.
+- **Fishing and Cleats categories** contribute the highest total profit.
+- A slight positive correlation between **discount rate and profit margin** was observed, indicating that moderate discounts may increase sales volume without significantly harming profitability.
+
+### Business Implications
+- Optimizing **Second Class shipping operations** could significantly improve delivery performance.
+- Expanding marketing and distribution in **high-growth markets** may increase total revenue.
+- Strategic discounting can be used to increase sales while maintaining profitability.
 
 ---
 
