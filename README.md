@@ -223,11 +223,12 @@ supply-chain-analytics-platform
 ├── images
 │   ├── README.md
 │   ├── dashboard-management.png
+|   ├── filtered_dashboard-management.png
 │   ├── dashboard-logistics.png
 │   └── dashboard-product.png
 │
 ├── notebooks
-│   ├── data-cleaning.ipynb
+│   ├── data-cleaning_pipeline.ipynb
 │   └── exploratory-data-analysis.ipynb
 │
 ├── sql
