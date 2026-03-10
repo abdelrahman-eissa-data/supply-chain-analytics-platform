@@ -149,24 +149,49 @@ The following management KPIs were implemented:
 
 ## Power BI Dashboard
 
-An interactive **Power BI dashboard** was developed to monitor key supply chain performance indicators and support data-driven decision-making.
+An interactive **Power BI dashboard** was developed to monitor key supply chain KPIs and support data-driven decision-making across management, logistics, and product performance.
 
-The dashboard is structured into three analytical pages, each focusing on a specific business perspective.
+The dashboard is organized into three analytical pages:
 
-### Management Overview
-Provides a high-level view of overall business performance, including revenue, profit, and key operational KPIs.
+### 1. Management Overview
+Provides an executive summary of overall business performance, including:
+- Total Sales
+- Total Profit
+- Year-over-Year Growth
+- Profit Margin
+- Revenue by Market
+- Top Products by Sales
 
-![Management Overview](images/dashboard-overview.png)
+**Dashboard Overview**
+![Management Overview](images/dashboard-management.png)
 
-### Logistics Performance
-Analyzes shipping efficiency, delivery delays, and logistics-related performance metrics.
+**Filtered Example**
+The filtered example highlights how users can interactively explore performance by specific markets, customer segments, and selected time periods.
 
-![Logistics Performance](images/logistics-analysis.png)
+![Management Overview - Filtered](images/filtered_dashboard-management.png)
 
-### Product Performance
-Evaluates product-level performance, profitability, and category-level insights.
+### 2. Logistics Performance
+Focuses on operational efficiency and delivery service levels, including:
+- On-Time Rate
+- Late Rate
+- Average Delay
+- Average Delivery Days
+- Shipping Mode Comparison
+- Regional Late Delivery Risk
 
-![Product Performance](images/product-performance.png)
+![Logistics Performance](images/dashboard-logistics.png)
+
+### 3. Product Performance
+Provides insights into product-level sales and profitability, including:
+- Total Sales and Profit
+- Profit Margin
+- Discount Rate
+- Quantity Sold
+- Profit by Category
+- Discount vs. Profitability Analysis
+
+![Product Performance](images/dashboard-product.png)
+
 ---
 
 ## Key Insights
